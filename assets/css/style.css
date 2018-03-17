@@ -1,0 +1,51 @@
+body {
+	font-family: 'Cinzel', serif;
+	background: url(../images/tracks.jpg);
+	background-size: cover;
+ 	background-attachment:fixed;
+	color: #000;
+	font-size: 25px;
+}
+
+.jumbotron {
+    padding: 30px;
+}
+
+.card-header {
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.table thead th {
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.table {
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+}
+
+.form-group {
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+}
+
+.form-control {
+    font-family: 'Merriweather', serif;
+    font-size: 10px;
+}
+
+form {
+    padding: 10px;
+}
+.btn {
+    align-content: center;
+}
+
+footer {
+    text-align: center;
+    color: #eee;
+}

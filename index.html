@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Train Scheduler</title>
+
+	<link rel="shortcut icon" type="image/png" href="assets/images/b.jpg"/>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Lora|Merriweather|Raleway" rel="stylesheet">	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <!-- Firebase Reference -->
+    <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
+</head>
+
+<body>
+
+    <div class="jumbotron jumbotron-fluid bg-info">
+        <div class="container">
+            <h1 class="display-4">Train Times</h1>
+            <p class="lead">Current train times from around the World.</p>
+        </div>
+    </div>
+
+    <div id="container">
+        <div class="row">
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-8">
+            <div class="card border-secondary">
+                <div class="card-header bg-secondary text-white">
+                    Current Train Schedule
+                </div>
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">Train Name</th>
+                            <th scope="col">Destination</th>
+                            <th scope="col">Frequency (min)</th>
+                            <th scope="col">Next Arrival</th>
+                            <th scope="col">Minutes Away</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row"></th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th scope="row"></th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th scope="row"></th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <br>
+            <div class="card border-secondary">
+                <div class="card-header bg-secondary text-white">
+                    Add Train
+                </div>
+                <form>
+                    <div class="form-group">
+                        <label for="inputTrainName">Train Name</label>
+                        <input type="text" class="form-control border-info" id="inputTrainName" aria-describedby="emailHelp" >
+                    </div>
+                    <div class="form-group">
+                        <label for="inputDestination">Destination</label>
+                        <input type="text" class="form-control border-info" id="inputDestination">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputFirstTrainTime">First Train Time (HH:mm - 24hr format)</label>
+                        <input type="text" class="form-control border-info" id="inputFirstTrainTime">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputFrequency">Frequency (min)</label>
+                        <input type"time" class="form-control border-info" id="inputFrequency">
+                    </div>
+                    <button type="submit" class="btn btn-info">Submit</button>
+                </form>
+            </div>
+
+            <div class="col-md-2">
+            </div>
+        </div>
+    </div>
+
+        <footer>
+            <p class="text">Copyright &copy; 2018 Beth Arnold</p>
+        </footer>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!-- JavaScript -->
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+
+</html>
